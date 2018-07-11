@@ -2,9 +2,19 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Автомобили</title>
+
 </head>
 <body>
-$END$
+    <H1>Авто из Америки</H1>
+    <div>
+        <form id="application" action="lead_mob.php" method="POST" name="application">
+            <input name="name" id="applicationName" maxlength="20" placeholder="Ваше имя*" required=""/>
+            <br>
+            <input name="telephone" id="applicationEmail" maxlength="20" placeholder="Ваш телефон*" pattern="^[0-9]+$" required=""/><br>
+            <input name="comment" id="applicationTelephone" placeholder="Комментарий"/><br>
+            <button class="applicationButton" type="submit" form="application">Отправить</button>
+        </form>
+    </div>
 </body>
 </html>

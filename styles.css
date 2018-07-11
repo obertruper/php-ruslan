@@ -1,0 +1,24 @@
+#wrapper{
+
+
+    width: 70%;
+    margin: 10px auto;
+    padding: 10px;
+
+    text-align: justify;
+
+}
+#HR{
+    border: 1px solid #0c63ff;
+    padding: 10px;
+    margin-bottom: 10px;
+
+}
+
+label{
+
+    border: 1px solid red;
+}
+input[type='radio']{
+
+}
